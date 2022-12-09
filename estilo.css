@@ -1,0 +1,231 @@
+/*		CORES;
+		#FF4500 - LARANJA
+		#FFA07A - TOMATO
+*/
+*{
+	background-color: black;
+
+}
+p{
+	color: white;
+	/*font-family: 'Bebas Neue', cursiva;*/
+	font-family: 'Montserrat', sem serifa;
+}
+.conteiner{
+	flex-wrap: wrap;
+	display: flex;
+}
+p{
+	padding: 0px;
+	margin: 0px;
+}
+/*-------Topo---------*/
+/*.a1{
+	background-color: blue;
+	height: 5vh;
+	width: 100%;
+	justify-content: space-between;
+}*/
+.logo{
+	width: 25%;
+	height: 5vh;
+	margin-bottom: 15px;
+}
+.img1{
+	
+}
+.espaco{
+	/*background-color: white;*/
+	width: 50%;
+	height: 5vh;
+}
+.menu{ 
+	/*background-color: #0000CD;*/
+	width: 25%;
+	height: 5vh;
+}
+.pmenu{
+	/*margin-left: 35px;*/
+	text-decoration: none;
+	color: #FF4500;
+	text-align: left;
+}
+.pmenu2{
+	margin-left: 45px;
+	text-decoration: none;
+	color: #FF4500;
+}
+.pmenu3{
+	margin-left: 55px;
+	text-decoration: none;
+	color: #FF4500;
+}
+/*-------Meio---------*/
+.b2{
+	background-color:  red;
+	height: 35vh;
+	width: 75%;
+	text-align: center;
+}
+.img2{
+	/**/
+	margin-top: 13px;
+	margin-right: 140px;
+}
+.img22{
+	margin-bottom: 11px;
+	/*margin-left: 15px;*/
+}
+/*.b75{
+	background-color: white;
+	height: 35vh;
+	width: 75%;
+}*/
+.gambiarra{
+	background-color: red;
+	height: 35vh;
+	width: 25%;
+}
+.b25{
+	/*background-color: black;*/
+	background-color: red;
+	height: 17.5vh;
+	width: 100%;
+	text-align: center;
+}
+.img3{
+	/*margin-top: 15px;*/
+}
+.bb25{
+	/*background-color: #0000CD;*/
+	background-color: red;
+	height: 17.5vh;
+	width: 100%;
+	text-align: center;
+}
+.p2{
+	text-align: right;
+}
+/*-------Baixo---------*/
+.c3{
+	background-color: red;
+	height: 60vh;
+	width: 20%;
+	text-align: center;
+}
+.img5{
+	margin-top: 30px;
+}
+.p3{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	margin-top: 15px;
+}
+.ctexto{
+	height: 15vh;
+	width: 100%;
+}
+.hexa{
+	/*width: 26.66%;
+	height: 22.5vh;*/
+	width: 26.66%;
+	height: 22.5vh;
+}
+.aaa{
+	height: 22.5vh;
+	width: 100%;
+
+}
+.aa{
+	height: 22.5vh;
+	width: 100%;
+
+}
+.tudodentro{
+	height: 60vh;
+	width: 80%;
+	display: inline;
+}
+.hexa2{
+	width: 26.66%;
+	height: 22.5vh;
+}
+/*.hexa3{
+	width: 26.66%;
+	height: 22.5vh;
+	background-color: red;
+}*/
+/*.c25{
+	background-color: black;
+	height: 60vh;
+	width: 20%;
+}*/
+/*.gambiarra2{
+	height: 60vh;
+	width: 80%;
+}
+.ctexto{
+	/*background-color: black;*/
+	/*height: 15vh;
+	width: 100%;
+}*/
+/*.cimg1{
+	/*background-color: #7FFFD4;*/
+	/*height: 22.5vh;
+	width: 80%;
+}*/
+/*.cimg2{
+	/*background-color: #3CB371;*/
+	/*height: 22.5vh;
+	width: 80%;
+}
+.hexa{
+	height: 22.5vh;
+	width: 26.6%;
+}
+.hexa2{
+	height: 22.5vh;
+	width: 26.6%;
+	background-color: red;
+}
+.hexa3{
+	height: 22.5vh;
+	width: 26.6%;
+	background-color: black;
+}*/
+.images{
+	padding: 0px;
+	margin: 0px;
+	font-size: 10px;
+}
+.images1{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+@media(max-width: 700px){
+	.c3{
+		display: none;
+	}
+}
+/*@media(max-width: 700px){
+	.{
+		
+	}
+}*/
+@media(max-width: 700px){
+	.images1{
+		font-size: 15px;
+		margin-left: 100px;
+
+	}
+@media(max-width: 700px){
+	.b2{
+		margin-left: 100px;
+		padding-left: 40px;
+	}
+@media(max-width: 700px){
+	.image2{
+		margin-left: 500px;
+	}
